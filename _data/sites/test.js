@@ -3,8 +3,8 @@ module.exports = {
 	description: "Akunbank",
 	skip: true,
 	options: {
-		frequency: 30 * 1,
-		freshChrome: "site"
+		frequency: 60 * 1,
+		freshChrome: "site",
 	},
 	urls: [
 		"https://app.akunbank.com/login",
