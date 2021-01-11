@@ -1,7 +1,6 @@
 module.exports = {
 	name: "Akunbank", // optional, falls back to object key
 	description: "Akunbank",
-	skip: true,
 	options: {
 		frequency: 60 * 1,
 		freshChrome: "site",
