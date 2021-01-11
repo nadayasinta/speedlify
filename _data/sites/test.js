@@ -4,7 +4,6 @@ module.exports = {
 	options: {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
-	skip: false,
 	urls: [
 		"https://app.akunbank.com",
 		"https://app.akunbank.com/login",
