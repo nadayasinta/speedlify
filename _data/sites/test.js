@@ -1,8 +1,10 @@
 module.exports = {
 	name: "Akunbank", // optional, falls back to object key
 	description: "Akunbank",
+	skip: true,
 	options: {
-		frequency: 60 * 23, // (in minutes), 23 hours
+		frequency: 30 * 1,
+		freshChrome: "site"
 	},
 	urls: [
 		"https://app.akunbank.com/login",
