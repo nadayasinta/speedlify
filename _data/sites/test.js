@@ -6,6 +6,7 @@ module.exports = {
 	},
 	skip: false,
 	urls: [
+		"https://app.akunbank.com",
 		"https://app.akunbank.com/login",
 		"https://app.akunbank.com/register",
 	]
